@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <script src='https://cdn.tiny.cloud/1/lf05k3dqrhj9l6btpx7w9xcx24dnzedv1jge3yxh8s3a6aah/tinymce/5/tinymce.min.js'
+    referrerpolicy="origin">
+    </script>
+  <script>
+    tinymce.init({
+      selector: '#mytextarea'
+    });
+  </script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/style.css">
+  <title>Banoth Srikanth</title>
+</head>
+
+<body>
+  
+  <form method="POST" action="/">
+    <h1>Add Posts</h1>
+    <div class="blog">
+      <input type="text" name="title" id="title" placeholder="title"/>
+      <input type="text" name="image" id="image" placeholder="Imagelink"/>
+      <input type="text" name="author" id="author" placeholder="author"/>
+      <input type="text" name="description" id="description" placeholder="description"/>
+      <input type="text" name="tags" id="author" placeholder="tags">
+      <textarea id="mytextarea" name="mytextarea">Add Your content</textarea>
+    </div>
+    <input type="submit">
+  </form>
+</body>
+
+</html>
